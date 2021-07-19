@@ -1,0 +1,1 @@
+  @Input () quote :any;
