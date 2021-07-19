@@ -1,3 +1,51 @@
+#fbutn{
+    background-color:blueviolet;
+    color: black;
+    border-color: blueviolet;
+    border-radius: 20px;
+    height: 7vh;
+    width: 30%;
+    font-size: 1.5em;
+    font-weight: 700;
+    
 }
+textarea{
+    height: 30vh;
+    width: 40%;
+    border-radius: 20px;
+    border-color: blueviolet;
+    margin-left: 4%;
+    background-color: rgba(145, 101, 187, 0.493);
 }
+input{
+    border-radius: 20px;
+    border-color: blueviolet;
+    padding-top: 4%;
+    margin-top: 4%;
+    margin-left: 4%;
+    background-color: rgba(145, 101, 187, 0.377);
+}
+form{
+    width: 40%;
+    text-align: center;
+    border-radius: 20px;
+    padding-bottom: 4%;
+    box-shadow: 2px 2px 2px 2px blueviolet;
+    margin-left: 6%;
+    margin-right: 6%;
+    background-color: white;
+   
+}
+label{
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-right: 4%;
+}
+img{
     float: left;
+    width: 50%;
+   
+}
+#fimg{
+    display: flex;
+}
