@@ -1,1 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=q">
+    <title>Quotes</title>
+    <link rel="stylesheet" href="./qoute.component.css">
+    <link rel="stylesheet" href="/">
+</head>
+<body>
+    <div class="container">
+        <button><h3><a href="#form">Add quote</a></h3></button>
+       
+        <h1>Tech <span>Quotes</span></h1>
+        
+        
+        
+    </div>
+    <div  id ="top">
+        <img src="https://previews.123rf.com/images/fedrunovan/fedrunovan2001/fedrunovan200100500/138695548-cute-vector-girl-character-leans-over-from-the-monitor-screen-important-message-comments-new-post-re.jpg" alt="">
+        <div>
+        <h2>
+            <span id ="big">Welcome to <strong>Tech</strong> Quotes </span><br>
+            <br>
+             " For your all time favourite technology quotes .
+                Feel free to also add your own quote and inspire generations.You can also vote for all the qoutes tou think are best ."
+        </h2><br>
+        <br>
+        <button id="view"><h3><a href= #bigQoutes >View Quotes</a></h3></button>
+
+</div>
+        
+    </div>
+    <div id = bigQoutes>
+        <div *ngFor='let quote of quotes; let i = index' class = col-md-6 id=quotes>
+            <ul>
+            <h3 id="line">{{quote.genre}}</h3>
+            <p>{{quote.quote}}</p>
+            
+            <div >
+                <button (click)="toggleQuote(i)" id="qoud">Description</button>
+                <app-quote-detail  *ngIf="quote.showDescription" [quote]='quote' (isComplete)='completeQuote($event, i)' (toIncreaseLikes)='increaseLikes($event, i)'></app-quote-detail>
+            
+
             </div> 
+       
+             </ul>
+      
+        </div>  
+    </div>
+   <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form> 
+
+    
+</body>
+</html>
+
+
