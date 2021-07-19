@@ -5,6 +5,19 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Description
+
+Tech quotes is an application that displys technooy qoutes and allows users to add their own qoutes and also vote for the quotes the like
+
+# Technologies used
+
+HTML-Front end design
+
+CSS- front end styling
+
+Typecript-Backend and Document and object manipulation
+
+Javascript-Document and object manipulation
 
 ## Code scaffolding
 
@@ -25,3 +38,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+MIT License
+
+Copyright (c) [2021] **Rabecca Nzau**
