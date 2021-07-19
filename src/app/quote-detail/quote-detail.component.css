@@ -1,2 +1,29 @@
+#like{
+    height:3vh;
+    width:35%;
+    background-color: white;
+    color:blueviolet;
+    border-color: blueviolet;
+    
+    border-radius: 10px;
 }
+#dislike{
+    height:3vh;
+    width:35%;
+    background-color: white;
+    color:blueviolet;
+    border-color: blueviolet;
+    border-radius: 10px;
+}
+div{
+    display: flex;
+}
+button{
+    margin-bottom: 3%;
+}
+#qoud{
+    background-color: white;
+    color:blueviolet;
+    border-color: blueviolet;
+    border-radius: 10px;
 }
