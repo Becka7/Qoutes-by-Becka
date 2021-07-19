@@ -1,2 +1,13 @@
+
+<p>{{quote.author}}</p>
+<p> {{quote.PostDate| date}} </p>
+<button (click)="quoteComplete(true)" id="qoud">Delete</button>
      <div>
+        <button id="like"(click)='increaseLikes(true)'>Like</button>
+        <p> {{quote.upvote}} </p>
      
+        <button id="dislike" (click)='decreaseLikes()'>Dislike</button>
+        <p> {{dislike}} </p>
+     </div>
+    
+
