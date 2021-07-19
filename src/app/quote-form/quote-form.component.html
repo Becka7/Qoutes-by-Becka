@@ -1,1 +1,28 @@
+<div id ="fimg">
+<form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
+    <label for="genre">Genre</label>
+    <input type="text" required id="genre" [(ngModel)]="newQuote.genre" name="genre" #name='ngModel' ><br>
+    <br>
+   
+    <label for="author">Author</label>
+    <input type="text" required id="author" [(ngModel)]="newQuote.author" name="author" #name='ngModel' ><br>
+    <br>
+    
+    <label for="posted">Posted</label>
+    <input type="text" required id="posted" [(ngModel)]="newQuote.posted" name="posted"  #name='ngModel'><br>
+    <br>
+    <label for="quote">Qoute</label>
+    <textarea type="textarea" required id="qoute" [(ngModel)]="newQuote.quote" name="quote" #name='ngModel'></textarea><br>
+    <br>
+    <label for="date">Date</label>
+    <input type="Date" required id="PostDate" [(ngModel)]="newQuote.PostDate" name="PostDate" #name='ngModel'><br>
+    <br>
+    <button type="submit" id ="fbutn">Add Quote</button>
 </form>
+<img src="https://i.pinimg.com/originals/48/d8/99/48d8994d0bfa5853f772282cafe380bb.jpg" alt="">
+</div>
+
+
+
+
+
