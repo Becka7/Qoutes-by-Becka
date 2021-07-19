@@ -1,4 +1,4 @@
-# QuotesBecca
+# Tech Quotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
 
@@ -7,7 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 # Description
 
-Tech quotes is an application that displys technooy qoutes and allows users to add their own qoutes and also vote for the quotes the like
+Tech quotes is an application that displays technology qoutes and allows users to add their own qoutes and also vote for the quotes the like
 
 # Technologies used
 
