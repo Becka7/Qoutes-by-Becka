@@ -1,8 +1,115 @@
+.container{
+    padding-top: 2%;
+    margin-right: 10%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+#quotes{
+    background-color: white;
     height:40vh;
+    width: 50%;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px 2px rgba(58, 44, 71, 0.733);
+    border-radius: 20px;
+    margin-top: 3%;
+    margin-left:2% ;
+    margin-right: 2%;
+   
+    
+}
+#bigQoutes{
+    display: flex;
+    background-color: rgb(250, 245, 245);
+    height: 70vh;
+    margin-bottom: 20%;
+    padding-top: 5%;
 
+
+
+}
+li{
+    text-decoration: none;
+}
+img{
+    float: left;
+    height: 50vh;
+    border-radius: 20px;
+    margin-left: 7%;
+}
+h1{
+    text-align: left;
+    margin-left: 10%;
+}
+h2{
+    text-align: center; 
+    float: right;
+    margin-top: 10%;
+    padding-left: 10%;
+    padding-right: 6%;
+   
+}
+span{
+    color: blue;
+}
+#top{
+    display: flex;
+    margin-top: 7%;
+    height: 80vh;
+}
+button{
+    background-color: blueviolet;
+    border-radius: 30px;
+    border-color: transparent;
+    float: right;
+    width:15%;
     margin-top: 2%;
 }
+button:hover{
+    background-color: white;
+    color: blueviolet;
     border-color: blueviolet;
-
 }
+#view{
+  
+    margin-right: 40%;
+    width:20%;
+    text-align: center;
+    background-color: white;
+    color: blueviolet;
+    border-color: blueviolet;
+   
+}
+#view:hover{
+    background-color: blueviolet;
+    color:black;
+}
+strong{
+    color: black;
+}
+#big{
+    font-size: 2em;
+}
+#qoud{
+    width: 50%;
+    background-color:blueviolet;
+    color: black;
+    border-color: blueviolet;
+    text-align: center;
+    margin-right: 55%;
+   
+}
+#line{
+    border-bottom: 2px solid blueviolet;
+    margin-right: 20px;
+    padding-left: 10px;
+    color: blueviolet;
+}
+#form{
+    background-color:  rgb(250, 245, 245);
+    margin-bottom: 10%;
 }
